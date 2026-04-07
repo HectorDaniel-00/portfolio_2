@@ -1,59 +1,150 @@
-# Frontend
+# 🚀 Full-Stack Developer Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.3.
+Portafolio profesional como desarrollador **Full-Stack & Automation Developer**, enfocado en la creación de aplicaciones modernas, APIs escalables y automatización de procesos.
 
-## Development server
+> ⚡ Construyo soluciones completas: frontend, backend y automatización de flujos.
 
-To start a local development server, run:
+---
+
+## 🧠 Tech Stack
+
+### Frontend
+
+- Angular 21 (Standalone API + Signals)
+- TypeScript
+- HTML5 + CSS3
+- TailwindCSS
+
+### Backend
+
+- Node.js
+- NestJS
+- REST APIs
+
+### Automatización
+
+- n8n (Workflows, integraciones, webhooks)
+- Integración con APIs externas
+- Automatización de procesos y tareas
+
+### Otros
+
+- Arquitectura Feature-Based
+- Lazy Loading
+- Vitest (testing)
+- Clean Code
+
+---
+
+## ✨ Características
+
+- 🧩 Arquitectura escalable (frontend + backend)
+- 🔌 Integración con APIs REST
+- ⚙️ Automatización de procesos con n8n
+- 🔄 Flujos automatizados (emails, datos, integraciones)
+- 📱 Diseño responsive
+- 🚀 Optimización de rendimiento
+
+---
+
+## 🏗️ Estructura del proyecto (Frontend)
+
+```bash
+src/
+│
+├── app/
+│   ├── core/
+│   │   ├── services/        # consumo de APIs y lógica global
+│   │   ├── models/
+│   │   ├── guards/
+│   │   └── interceptors/
+│   │
+│   ├── shared/
+│   │   ├── components/
+│   │   ├── directives/
+│   │   ├── pipes/
+│   │   └── utils/
+│   │
+│   ├── features/
+│   │   ├── home/
+│   │   ├── about/
+│   │   ├── projects/
+│   │   ├── contact/
+│   │   └── blog/
+│   │
+│   ├── layout/
+│   ├── app.routes.ts
+│   └── app.config.ts
+│
+├── assets/
+└── index.html
+```
+
+---
+
+## ⚙️ Automatización con n8n
+
+Este portafolio también refleja experiencia en automatización de procesos como:
+
+- 🔄 Envío automático de emails
+- 📥 Procesamiento de formularios
+- 🔗 Integración entre servicios (APIs)
+- ⚡ Webhooks y flujos en tiempo real
+
+> 💡 Ejemplo: conectar formularios del portafolio con flujos automatizados en n8n.
+
+---
+
+## ▶️ Desarrollo
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Abrir en:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```
+http://localhost:4200/
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+## 🏗️ Build
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+## 🧪 Testing
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+## 🎯 Objetivo del proyecto
 
-```bash
-ng e2e
-```
+Este portafolio demuestra:
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+- Desarrollo Full-Stack (Angular + NestJS)
+- Diseño e integración de APIs
+- Automatización de procesos con n8n
+- Arquitectura limpia y escalable
+- Resolución de problemas reales
 
-## Additional Resources
+---
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 📬 Contacto
+
+- 💼 LinkedIn
+- 📧 Email
+- 🌐 Portafolio
+
+---
+
+## 🧠 Enfoque
+
+> “Automatizar procesos y construir sistemas completos es la clave para escalar soluciones digitales.”
